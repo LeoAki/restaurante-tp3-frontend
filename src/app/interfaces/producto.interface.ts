@@ -4,6 +4,7 @@ export class Producto {
     public codigo: number,
     public nombre: string,
     public unidadMedida: string,
-    public cantidad: number
+    public cantidad: number,
+    public disabled?: boolean
   ) {}
 }

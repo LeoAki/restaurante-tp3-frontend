@@ -7,6 +7,7 @@ import { FormsModule } from '@angular/forms';
 
 import { Almacen } from './providers/almacen';
 import { Producto } from './providers/producto';
+import { NotaPedido } from './providers/nota-pedido';
 import { Api } from './providers/api';
 
 import { AppComponent } from './app.component';
@@ -29,6 +30,7 @@ import { AppRoutingModule } from './app.route';
   providers: [
     Almacen,
     Producto,
+    NotaPedido,
     Api
   ],
   bootstrap: [AppComponent]

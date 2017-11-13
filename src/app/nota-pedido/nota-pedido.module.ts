@@ -6,10 +6,13 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NotaPedidoPage } from './nota-pedido';
 import { NewNotaPedidoPage } from './new-nota-pedido';
 
+import { SearchPipe } from '../pipes/search.pipe';
+
 @NgModule({
   declarations: [
     NotaPedidoPage,
-    NewNotaPedidoPage
+    NewNotaPedidoPage,
+    SearchPipe
   ],
   imports: [
     CommonModule,
