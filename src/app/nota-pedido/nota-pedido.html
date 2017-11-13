@@ -12,6 +12,14 @@
   </div>
 </div>
 
+<h5 class="alert alert-secondary" *ngIf="notaNumero" style="margin: 15px 0;">
+  Se actualizó exitosamente la nota de pedido {{ notaNumero }}
+</h5>
+
+<h5 class="alert alert-warning" *ngIf="anularAction" style="margin: 15px 0;">
+  Se anuló correctamente
+</h5>
+
 <div class="row" style="margin-top: 25px;">
   <div class="col-sm-6">
     <button type="button" name="new" (click)="goToForm()">Nuevo</button>
@@ -51,9 +59,9 @@
           <td>{{ nota.estado }}</td>
           <td>{{ nota.almacen }}</td>
           <td>
-            <a class="btn btn-light" [routerLink]="['/nota-pedido/edit/' + nota.uuid]">
+            <button class="btn btn-light" [disabled]="nota.estado !== 'pending'" [routerLink]="['/nota-pedido/edit/', nota.uuid]">
               Editar
-            </a>
+            </button>
             <button class="btn btn-danger" (click)="openAnularModal(anularModal, i)">Anular</button>
           </td>
         </tr>

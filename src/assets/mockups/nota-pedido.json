@@ -1,0 +1,36 @@
+{
+  "data": {
+    "uuid": "11c92058-c00a-4e42-a651-933d66e3e966",
+    "numero": 0,
+    "fecha": "Thursday, June 29, 2017 8:29 AM",
+    "date": "Thursday, June 29, 2017 8:29 AM",
+    "estado": "active",
+    "almacen": "brown",
+    "direccion": "Test Direccion",
+    "contacto": "Test",
+    "observacion": "Test Test",
+    "productos": [
+      {
+        "uuid": "f2f7c8ad-98f2-4d00-a408-0994163f58e6",
+        "codigo": 2,
+        "nombre": "Mitroc",
+        "unidadMedida": "KG",
+        "cantidad": 150
+      },
+      {
+        "uuid": "e35b9b39-527f-4bda-8767-a3c9c832a1b3",
+        "codigo": 3,
+        "nombre": "Ludak",
+        "unidadMedida": "UN",
+        "cantidad": 50
+      },
+      {
+        "uuid": "bb818dd9-f720-493b-8931-016b51a6e79b",
+        "codigo": 4,
+        "nombre": "Incubus",
+        "unidadMedida": "KG",
+        "cantidad": 15
+      }
+    ]
+  }
+}

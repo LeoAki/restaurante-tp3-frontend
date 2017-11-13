@@ -11,6 +11,10 @@ export class NotaPedido {
     return this.api.post('productos.array.json', nota);
   }
 
+  updateNotaPedido(nota: NotaPedidoInterface) {
+    return this.api.put('productos.array.json', nota);
+  }
+
   getNotaPedidos() {
     return this.api.get('nota-pedido.array.json');
   }
@@ -20,5 +24,9 @@ export class NotaPedido {
       uuid: notaId,
       estado: 'Anulado'
     });
+  }
+
+  getNotaPedido(uuid: string) {
+    return this.api.get('nota-pedido.json');
   }
 }

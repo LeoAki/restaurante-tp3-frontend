@@ -1,6 +1,6 @@
 <div class="row" style="padding-top: 15px;">
   <div class="col-sm-8">
-    <h1>{{ action }} Nota de Pedido</h1>
+    <h1>Nota de Pedido</h1>
   </div>
   <div class="col-sm-4">
     <div class="media">
@@ -12,7 +12,7 @@
   </div>
 </div>
 
-<form #f="ngForm" (ngSubmit)="f.valid && onSubmit()">
+<form #f="ngForm" (ngSubmit)="f.valid && openGuardarModal(guardarModal)">
   <div class="row" style="margin-top: 15px;">
     <div class="col-sm-6">
       <div class="form-group row">
@@ -51,7 +51,7 @@
         <label for="direccion" class="col-sm-1 col-form-label">Dirección:</label>
         <div class="col-sm-11">
           <input type="text" class="form-control" id="direccion" name="direccion"
-                 [(ngModel)]="nota.direccion" required readonly #direccion="ngModel"
+                 [(ngModel)]="nota.direccion" required #direccion="ngModel"
                  placeholder="Ingrese una Dirección">
           <div *ngIf="direccion.invalid && f.submitted"
               class="alert alert-danger" style="margin-top: 5px">
@@ -133,7 +133,7 @@
 
   <div class="row">
     <div class="col-sm-12 text-right">
-      <button type="button" class="btn btn-secondary">Cancelar</button>
+      <button type="button" class="btn btn-secondary" [routerLink]="['/nota-pedido']">Cancelar</button>
       <button type="submit" class="btn btn-primary">Guardar</button>
     </div>
   </div>
@@ -219,6 +219,26 @@
   <div class="modal-footer">
     <button type="button" class="btn btn-outline-dark" (click)="c('Close click')">
       Close
+    </button>
+  </div>
+</ng-template>
+
+<ng-template #guardarModal let-d="dismiss" let-c="close">
+  <div class="modal-header">
+    <h4 class="modal-title">Guardar Nota de Pedido</h4>
+    <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <p>¿Está seguro que desea {{ action }} esta nota de pedido?</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline-primary" (click)="onSubmit()">
+      Aceptar
+    </button>
+    <button type="button" class="btn btn-outline-dark" (click)="c('Close click')">
+      Cancelar
     </button>
   </div>
 </ng-template>
