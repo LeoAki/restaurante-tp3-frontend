@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "uuid": "009c1958-75dc-451f-b56c-c4097ade50bd",
+      "codigo": 0,
+      "nombre": "Globoil",
+      "direccion": "Martell"
+    },
+    {
+      "uuid": "c32c7af2-905f-4281-8712-e7530c59905b",
+      "codigo": 1,
+      "nombre": "Magmina",
+      "direccion": "Hannasville"
+    },
+    {
+      "uuid": "cebcbf7b-9e8e-45c2-a855-b8274e7dc79f",
+      "codigo": 2,
+      "nombre": "Liquidoc",
+      "direccion": "Cotopaxi"
+    },
+    {
+      "uuid": "c850382a-d6a9-4d0e-af3a-cf3474493914",
+      "codigo": 3,
+      "nombre": "Nutralab",
+      "direccion": "Strong"
+    },
+    {
+      "uuid": "f86f89cb-5594-4c55-994a-8bf726b667f8",
+      "codigo": 4,
+      "nombre": "Bittor",
+      "direccion": "Cresaptown"
+    },
+    {
+      "uuid": "d6912d01-64d2-4503-806b-713574d9db48",
+      "codigo": 5,
+      "nombre": "Magnafone",
+      "direccion": "Salvo"
+    }
+  ]
+}

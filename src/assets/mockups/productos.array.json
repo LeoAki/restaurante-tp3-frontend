@@ -1,0 +1,58 @@
+{
+  "data": [
+    {
+      "uuid": "49577d28-2bc5-4c38-8e62-2ffa04fca03e",
+      "codigo": 0,
+      "nombre": "Quarmony",
+      "unidadMedida": "LT"
+    },
+    {
+      "uuid": "b5a4b5dd-a2b2-4e05-a600-b6d8633e05c7",
+      "codigo": 1,
+      "nombre": "Automon",
+      "unidadMedida": "LT"
+    },
+    {
+      "uuid": "f2f7c8ad-98f2-4d00-a408-0994163f58e6",
+      "codigo": 2,
+      "nombre": "Mitroc",
+      "unidadMedida": "KG"
+    },
+    {
+      "uuid": "e35b9b39-527f-4bda-8767-a3c9c832a1b3",
+      "codigo": 3,
+      "nombre": "Ludak",
+      "unidadMedida": "UN"
+    },
+    {
+      "uuid": "bb818dd9-f720-493b-8931-016b51a6e79b",
+      "codigo": 4,
+      "nombre": "Incubus",
+      "unidadMedida": "KG"
+    },
+    {
+      "uuid": "6b069587-1e83-4ea6-904b-43a387e76138",
+      "codigo": 5,
+      "nombre": "Acruex",
+      "unidadMedida": "LT"
+    },
+    {
+      "uuid": "3d8fab89-662b-4345-a07c-54a658b56601",
+      "codigo": 6,
+      "nombre": "Quonk",
+      "unidadMedida": "KG"
+    },
+    {
+      "uuid": "ed552dd5-6e43-4b5f-8839-1cc118d0a39e",
+      "codigo": 7,
+      "nombre": "Satiance",
+      "unidadMedida": "KG"
+    },
+    {
+      "uuid": "f40a6f7a-213b-4cb0-b750-f19d93d1158a",
+      "codigo": 8,
+      "nombre": "Genekom",
+      "unidadMedida": "LT"
+    }
+  ]
+}
