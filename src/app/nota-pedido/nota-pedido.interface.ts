@@ -6,6 +6,7 @@ export class NotaPedido {
     public date: string,
     public almacen: string,
     public direccion: string,
-    public productos: Producto[]
+    public productos: Producto[],
+    public estado: string
   ) {}
 }

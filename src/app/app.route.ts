@@ -6,7 +6,8 @@ import { NewNotaPedidoPage } from './nota-pedido/new-nota-pedido';
 
 export const routes: Routes = [
   { path: 'nota-pedido', component: NotaPedidoPage },
-  { path: 'nota-pedido/new', component: NewNotaPedidoPage }
+  { path: 'nota-pedido/new', component: NewNotaPedidoPage },
+  { path: 'nota-pedido/edit/:id', component: NewNotaPedidoPage }
 ];
 
 @NgModule({

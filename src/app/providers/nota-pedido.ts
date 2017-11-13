@@ -10,4 +10,15 @@ export class NotaPedido {
   saveNotaPedido(nota: NotaPedidoInterface) {
     return this.api.post('productos.array.json', nota);
   }
+
+  getNotaPedidos() {
+    return this.api.get('nota-pedido.array.json');
+  }
+
+  anularNotaPedido(notaId: string) {
+    return this.api.put('nota-pedido.array.json', {
+      uuid: notaId,
+      estado: 'Anulado'
+    });
+  }
 }

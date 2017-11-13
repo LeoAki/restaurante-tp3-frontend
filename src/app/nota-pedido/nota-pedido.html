@@ -20,7 +20,8 @@
     <label class="sr-only" for="search">Search</label>
     <div class="input-group mb-2 mb-sm-0">
       <div class="input-group-addon">Buscar</div>
-      <input type="text" class="form-control" id="search" placeholder="Ingrese su criterio de búsqueda">
+      <input type="text" class="form-control" id="search" [(ngModel)]="query"
+             placeholder="Ingrese su criterio de búsqueda">
     </div>
   </div>
 </div>
@@ -31,7 +32,7 @@
       <thead>
         <tr>
           <th>
-            <input type="checkbox" name="all" value="all">
+            <input type="checkbox" name="all" [(ngModel)]="checked">
           </th>
           <th>Número</th>
           <th>Fecha</th>
@@ -41,17 +42,19 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
+        <tr *ngFor="let nota of notaPedidos | search:'numero,almacen':query; let i = index">
           <td>
-            <input type="checkbox" name="test" value="test">
+            <input type="checkbox" name="test" [(ngModel)]="checked">
           </td>
-          <td>00001</td>
-          <td>01/01/01</td>
-          <td>Activo</td>
-          <td>Almacén 1</td>
+          <td>{{ nota.numero }}</td>
+          <td>{{ nota.fecha }}</td>
+          <td>{{ nota.estado }}</td>
+          <td>{{ nota.almacen }}</td>
           <td>
-            <a href="/">Editar</a>
-            <a href="/">Anular</a>
+            <a class="btn btn-light" [routerLink]="['/nota-pedido/edit/' + nota.uuid]">
+              Editar
+            </a>
+            <button class="btn btn-danger" (click)="openAnularModal(anularModal, i)">Anular</button>
           </td>
         </tr>
       </tbody>
@@ -65,3 +68,23 @@
     <button type="button" name="imprimir">Imprimir</button>
   </div>
 </div>
+
+<ng-template #anularModal let-d="dismiss" let-c="close">
+  <div class="modal-header">
+    <h4 class="modal-title">Anular Nota de Pedido</h4>
+    <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <p>¿Está seguro de eliminar esta Nota de Pedido?</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline-danger" (click)="anular()">
+      Anular
+    </button>
+    <button type="button" class="btn btn-outline-dark" (click)="c('Close click')">
+      Cancelar
+    </button>
+  </div>
+</ng-template>
