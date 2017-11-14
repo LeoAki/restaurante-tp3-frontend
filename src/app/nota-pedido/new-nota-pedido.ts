@@ -89,8 +89,9 @@ export class NewNotaPedidoPage implements OnInit, OnDestroy {
   }
 
   getAlmacen(almacen: AlmacenInterface) {
-    this.nota.almacen = almacen.nombre;
-    this.nota.direccion = almacen.direccion;
+    this.nota.almacen = almacen.name;
+    this.nota.direccion = almacen.address;
+    this.nota.contacto = almacen.contact_name;
     this.modalAlmacenRef.close();
   }
 
