@@ -83,17 +83,17 @@
         </thead>
         <tbody>
           <tr *ngFor="let producto of nota.productos; let i = index">
-            <td>{{ producto.codigo }}</td>
-            <td>{{ producto.nombre }}</td>
+            <td>{{ producto.sku }}</td>
+            <td>{{ producto.name }}</td>
             <td>
               <input type="number" name="cantidad[{{ i }}]" min="1"
-                     [(ngModel)]="producto.cantidad" #cantidad="ngModel" required>
+                     [(ngModel)]="producto.quantity" #cantidad="ngModel" required>
               <div *ngIf="cantidad.invalid && (cantidad.dirty || cantidad.touched || f.submitted)"
                   class="alert alert-danger" style="margin-top: 5px">
                   Cantidad de Producto Obligatorio
               </div>
             </td>
-            <td>{{ producto.unidadMedida }}</td>
+            <td>{{ producto.unit_of_measurement }}</td>
             <td>
               <button class="btn btn-warning" (click)="quitarProducto(producto, i)">Quitar</button>
             </td>
@@ -203,9 +203,9 @@
       </thead>
       <tbody>
         <tr *ngFor="let producto of productos | search:'codigo,nombre':query; let i = index">
-          <td>{{ producto.codigo }}</td>
-          <td>{{ producto.nombre }}</td>
-          <td>{{ producto.unidadMedida }}</td>
+          <td>{{ producto.sku }}</td>
+          <td>{{ producto.name }}</td>
+          <td>{{ producto.unit_of_measurement }}</td>
           <td>
             <button class="btn btn-outline-primary" [disabled]="producto.disabled"
                     (click)="getProducto(producto, i)">

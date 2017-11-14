@@ -1,58 +1,253 @@
 {
-  "data": [
-    {
-      "uuid": "49577d28-2bc5-4c38-8e62-2ffa04fca03e",
-      "codigo": 0,
-      "nombre": "Quarmony",
-      "unidadMedida": "LT"
-    },
-    {
-      "uuid": "b5a4b5dd-a2b2-4e05-a600-b6d8633e05c7",
-      "codigo": 1,
-      "nombre": "Automon",
-      "unidadMedida": "LT"
-    },
-    {
-      "uuid": "f2f7c8ad-98f2-4d00-a408-0994163f58e6",
-      "codigo": 2,
-      "nombre": "Mitroc",
-      "unidadMedida": "KG"
-    },
-    {
-      "uuid": "e35b9b39-527f-4bda-8767-a3c9c832a1b3",
-      "codigo": 3,
-      "nombre": "Ludak",
-      "unidadMedida": "UN"
-    },
-    {
-      "uuid": "bb818dd9-f720-493b-8931-016b51a6e79b",
-      "codigo": 4,
-      "nombre": "Incubus",
-      "unidadMedida": "KG"
-    },
-    {
-      "uuid": "6b069587-1e83-4ea6-904b-43a387e76138",
-      "codigo": 5,
-      "nombre": "Acruex",
-      "unidadMedida": "LT"
-    },
-    {
-      "uuid": "3d8fab89-662b-4345-a07c-54a658b56601",
-      "codigo": 6,
-      "nombre": "Quonk",
-      "unidadMedida": "KG"
-    },
-    {
-      "uuid": "ed552dd5-6e43-4b5f-8839-1cc118d0a39e",
-      "codigo": 7,
-      "nombre": "Satiance",
-      "unidadMedida": "KG"
-    },
-    {
-      "uuid": "f40a6f7a-213b-4cb0-b750-f19d93d1158a",
-      "codigo": 8,
-      "nombre": "Genekom",
-      "unidadMedida": "LT"
-    }
-  ]
+	"data": [{
+		"uuid": "9a08fb8f-b01c-3d3e-becf-244a249e7a59",
+		"sku": "58585014",
+		"name": "quidem",
+		"description": "nihil recusandae et ea blanditiis excepturi suscipit et nam sunt voluptas autem ad aut ut ullam laudantium quaerat cupiditate dolorem",
+		"unit_of_measurement": "hy",
+		"category": {
+			"uuid": "2689764f-bb13-35a0-a96f-3073a58db753",
+			"name": "incidunt"
+		}
+	}, {
+		"uuid": "4445d738-deb4-36a4-b9c3-d5c2e5273aea",
+		"sku": "43218912",
+		"name": "voluptatem",
+		"description": "beatae officia non quae quia dolorum aut blanditiis aut vel a non voluptatibus adipisci facilis laborum et eum mollitia consequatur",
+		"unit_of_measurement": "gg",
+		"category": {
+			"uuid": "1b216b6b-d232-3322-8bf7-295f2a073400",
+			"name": "porro"
+		}
+	}, {
+		"uuid": "ae5bd796-a465-35b0-b127-5d4b3420a454",
+		"sku": "22638290",
+		"name": "laboriosam",
+		"description": "asperiores aliquid repudiandae molestiae totam temporibus qui veniam vero molestiae iure rem odit voluptates dicta temporibus enim dignissimos sapiente sunt",
+		"unit_of_measurement": "gj",
+		"category": {
+			"uuid": "2689764f-bb13-35a0-a96f-3073a58db753",
+			"name": "incidunt"
+		}
+	}, {
+		"uuid": "f68ba679-a489-33cc-a075-9fa6ed87ce26",
+		"sku": "23384511",
+		"name": "architecto",
+		"description": "quo voluptas nulla et eveniet est ullam ut et ad mollitia assumenda vel et nemo consequatur est et deserunt reprehenderit",
+		"unit_of_measurement": "eg",
+		"category": {
+			"uuid": "642262fa-50a1-3f2a-8c36-12d7d0d2f563",
+			"name": "et"
+		}
+	}, {
+		"uuid": "72dc9d3f-e091-31e5-a001-a6296c56ae81",
+		"sku": "65820576",
+		"name": "voluptas",
+		"description": "omnis amet dignissimos atque dicta et id illo dolores aliquam magni architecto suscipit expedita tempore temporibus totam enim non debitis",
+		"unit_of_measurement": "dv",
+		"category": {
+			"uuid": "d9629ac9-d738-33d9-b935-314f5dd16fd5",
+			"name": "libero"
+		}
+	}, {
+		"uuid": "5670080a-37f5-3db5-9492-aff98748dd2f",
+		"sku": "31728911",
+		"name": "sint",
+		"description": "eum consequuntur et quidem modi aut odio iure mollitia voluptate tenetur voluptate voluptatibus fugiat explicabo rerum optio sunt non accusamus",
+		"unit_of_measurement": "pn",
+		"category": {
+			"uuid": "1b216b6b-d232-3322-8bf7-295f2a073400",
+			"name": "porro"
+		}
+	}, {
+		"uuid": "f4e3af1f-0347-30b6-bc41-35af2e25aaa6",
+		"sku": "41278284",
+		"name": "pariatur",
+		"description": "deleniti consequuntur quibusdam fuga eum repellendus vitae distinctio sint cum sint vitae autem a rerum et quisquam eligendi molestias incidunt",
+		"unit_of_measurement": "jp",
+		"category": {
+			"uuid": "93f90001-d118-3792-b50e-0bceff78e8c9",
+			"name": "et"
+		}
+	}, {
+		"uuid": "c0475c11-8180-3bcc-a808-d7e75df990a2",
+		"sku": "13009464",
+		"name": "quis",
+		"description": "quia pariatur recusandae in ratione aspernatur accusamus consequatur cumque exercitationem odit aliquam omnis corporis adipisci aut quibusdam voluptas quia aliquid",
+		"unit_of_measurement": "kz",
+		"category": {
+			"uuid": "2689764f-bb13-35a0-a96f-3073a58db753",
+			"name": "incidunt"
+		}
+	}, {
+		"uuid": "d8184171-51ca-3f08-ae27-bd30a4a38909",
+		"sku": "70114004",
+		"name": "cupiditate",
+		"description": "aut possimus numquam sit eos est corrupti et eum non sed necessitatibus dolores vitae consequatur alias ratione autem quis ratione",
+		"unit_of_measurement": "xr",
+		"category": {
+			"uuid": "642262fa-50a1-3f2a-8c36-12d7d0d2f563",
+			"name": "et"
+		}
+	}, {
+		"uuid": "54f36735-603d-3d7a-95e3-c2598f3763b1",
+		"sku": "83740459",
+		"name": "quia",
+		"description": "corrupti voluptatem aut nulla assumenda illo et omnis ullam qui delectus atque dolorem quod quaerat et eum eius cupiditate et",
+		"unit_of_measurement": "lr",
+		"category": {
+			"uuid": "2689764f-bb13-35a0-a96f-3073a58db753",
+			"name": "incidunt"
+		}
+	}, {
+		"uuid": "c8c6e38d-cdfc-3755-b71e-a1a39f33e0b6",
+		"sku": "68998125",
+		"name": "eveniet",
+		"description": "temporibus voluptates consectetur omnis et quos eius aperiam ut quia hic aliquam sit ut assumenda praesentium quia id impedit sed",
+		"unit_of_measurement": "qb",
+		"category": {
+			"uuid": "2689764f-bb13-35a0-a96f-3073a58db753",
+			"name": "incidunt"
+		}
+	}, {
+		"uuid": "82ac32b4-e5cd-369d-be8b-7340a92dc730",
+		"sku": "32739735",
+		"name": "omnis",
+		"description": "saepe voluptas laudantium aperiam harum quidem debitis eos accusantium animi necessitatibus ducimus reprehenderit corporis tempora praesentium omnis qui ea voluptatum",
+		"unit_of_measurement": "pi",
+		"category": {
+			"uuid": "d9629ac9-d738-33d9-b935-314f5dd16fd5",
+			"name": "libero"
+		}
+	}, {
+		"uuid": "46d3a78e-7933-3da7-ada6-08ee31e235f3",
+		"sku": "90469235",
+		"name": "sapiente",
+		"description": "et nisi est occaecati dolores eos earum blanditiis quibusdam molestiae dolor consectetur suscipit aut exercitationem omnis corporis at tenetur reprehenderit",
+		"unit_of_measurement": "oz",
+		"category": {
+			"uuid": "2689764f-bb13-35a0-a96f-3073a58db753",
+			"name": "incidunt"
+		}
+	}, {
+		"uuid": "f6cec373-4a42-3844-a491-1a46172da9af",
+		"sku": "61539833",
+		"name": "reprehenderit",
+		"description": "eligendi reiciendis et quo repellendus molestiae in vel qui expedita qui voluptatum saepe possimus vel ea quis ut ut natus",
+		"unit_of_measurement": "xb",
+		"category": {
+			"uuid": "0e5f9053-4a93-304d-b7cc-a8ed72cfdcf6",
+			"name": "placeat"
+		}
+	}, {
+		"uuid": "9a63b762-a43e-3577-a332-02c511a4a4ad",
+		"sku": "90865036",
+		"name": "modi",
+		"description": "maiores culpa possimus at nihil consectetur saepe ea molestiae dolores blanditiis vel ut nobis adipisci dolore voluptatem delectus voluptas est",
+		"unit_of_measurement": "gw",
+		"category": {
+			"uuid": "642262fa-50a1-3f2a-8c36-12d7d0d2f563",
+			"name": "et"
+		}
+	}, {
+		"uuid": "852d6791-8d20-32be-8668-081467e001bc",
+		"sku": "95553353",
+		"name": "ex",
+		"description": "id consequuntur explicabo laboriosam incidunt est et totam iure adipisci laudantium natus incidunt commodi aut consequatur quasi ut qui pariatur",
+		"unit_of_measurement": "nb",
+		"category": {
+			"uuid": "93f90001-d118-3792-b50e-0bceff78e8c9",
+			"name": "et"
+		}
+	}, {
+		"uuid": "8c2b0776-2272-3d69-a8a9-92a4db2000f4",
+		"sku": "329906",
+		"name": "cum",
+		"description": "eligendi error est animi quisquam rerum vel est commodi vero ut iure minima numquam occaecati vel id ducimus nihil aut",
+		"unit_of_measurement": "bg",
+		"category": {
+			"uuid": "1b216b6b-d232-3322-8bf7-295f2a073400",
+			"name": "porro"
+		}
+	}, {
+		"uuid": "a856ccc5-1ff5-3d58-9a28-5e7c92236d59",
+		"sku": "89743085",
+		"name": "dolor",
+		"description": "maiores totam facere natus hic repellendus est ut omnis qui inventore ut autem blanditiis earum beatae dolorum quae delectus illum",
+		"unit_of_measurement": "hk",
+		"category": {
+			"uuid": "93f90001-d118-3792-b50e-0bceff78e8c9",
+			"name": "et"
+		}
+	}, {
+		"uuid": "71417145-47b1-3d23-ba87-aa484dcdb127",
+		"sku": "87825435",
+		"name": "vel",
+		"description": "doloribus rerum officiis qui impedit quae reprehenderit provident voluptatem eius unde quos quasi dolore incidunt fuga molestiae non quia asperiores",
+		"unit_of_measurement": "jq",
+		"category": {
+			"uuid": "50fe2dcf-b86f-36e9-8a37-76703666ed70",
+			"name": "ullam"
+		}
+	}, {
+		"uuid": "a71c2971-b365-3688-b363-5aac0e6ed4ee",
+		"sku": "5677327",
+		"name": "dignissimos",
+		"description": "excepturi consequuntur incidunt et cum et soluta et similique exercitationem praesentium et ea aut aut nulla provident occaecati eius consectetur",
+		"unit_of_measurement": "oi",
+		"category": {
+			"uuid": "642262fa-50a1-3f2a-8c36-12d7d0d2f563",
+			"name": "et"
+		}
+	}, {
+		"uuid": "dd282730-efbb-3297-930e-15cd4620ed47",
+		"sku": "44333657",
+		"name": "consequatur",
+		"description": "ratione iure consequuntur asperiores ut eaque omnis officia autem impedit eaque doloribus debitis accusantium fuga sunt ut iusto sit dolore",
+		"unit_of_measurement": "oo",
+		"category": {
+			"uuid": "0e5f9053-4a93-304d-b7cc-a8ed72cfdcf6",
+			"name": "placeat"
+		}
+	}, {
+		"uuid": "e9493ffd-2858-39d2-ad86-eb14cd1662ee",
+		"sku": "77831608",
+		"name": "veniam",
+		"description": "quo id eum neque ullam quisquam ipsa dolores nobis a nostrum accusantium aliquam dignissimos aperiam aut quidem accusamus a rem",
+		"unit_of_measurement": "kg",
+		"category": {
+			"uuid": "1b216b6b-d232-3322-8bf7-295f2a073400",
+			"name": "porro"
+		}
+	}, {
+		"uuid": "247c5895-209f-3ee1-8ce7-3c54a20a200f",
+		"sku": "42175950",
+		"name": "laborum",
+		"description": "et et incidunt nesciunt vel eos placeat velit assumenda fugiat blanditiis dolorum sed animi unde optio fugit et rerum suscipit",
+		"unit_of_measurement": "ah",
+		"category": {
+			"uuid": "0e5f9053-4a93-304d-b7cc-a8ed72cfdcf6",
+			"name": "placeat"
+		}
+	}, {
+		"uuid": "e27a0859-d4b7-317f-822d-989d2c1ef503",
+		"sku": "20352232",
+		"name": "vel",
+		"description": "natus eligendi debitis tempore non enim officia cupiditate dolorem eius molestias dicta tempora perspiciatis harum temporibus id voluptas maiores minus",
+		"unit_of_measurement": "pf",
+		"category": {
+			"uuid": "93f90001-d118-3792-b50e-0bceff78e8c9",
+			"name": "et"
+		}
+	}, {
+		"uuid": "97504b5d-8b39-3443-849e-987ece9a453b",
+		"sku": "62343505",
+		"name": "quia",
+		"description": "minima iusto aut dolore blanditiis odit voluptates laboriosam cupiditate voluptate dolorum cum est voluptates corrupti fugit dolor et aut id",
+		"unit_of_measurement": "px",
+		"category": {
+			"uuid": "93f90001-d118-3792-b50e-0bceff78e8c9",
+			"name": "et"
+		}
+	}]
 }

@@ -103,7 +103,7 @@ export class NewNotaPedidoPage implements OnInit, OnDestroy {
   quitarProducto(producto: ProductoInterface, index: number) {
     this.nota.productos.splice(index, 1);
     this.productos.filter(p => {
-      if(p.codigo === producto.codigo) {
+      if(p.uuid === producto.uuid) {
         p.disabled = false;
       }
     });
