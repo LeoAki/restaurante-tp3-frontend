@@ -202,7 +202,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let producto of productos | search:'codigo,nombre':query; let i = index">
+        <tr *ngFor="let producto of productos | search:'sku,name':query; let i = index">
           <td>{{ producto.sku }}</td>
           <td>{{ producto.name }}</td>
           <td>{{ producto.unit_of_measurement }}</td>
